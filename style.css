@@ -25,7 +25,8 @@ body {
 .information { 
     display:flex;
     justify-content: space-between;
-    padding-bottom: 1.5rem;
+    padding: 0.5rem;
+    padding-bottom: 3rem;
     gap: 12px;
 
 }
@@ -39,4 +40,20 @@ img {
 }
 a { 
     padding-left: 6px;
+}
+.grid { 
+    display:flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.square_style {
+    height: 15px; 
+    width: 15px;
+    border: 0.5px solid grey;
+    box-sizing: border-box;
+    background-color:white;
+}
+.col_style { 
+    display:flex;
+    flex-direction: column;
 }
