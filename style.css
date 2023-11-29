@@ -11,8 +11,15 @@ body {
     align-items: center;
 
 }
+.slidecontainer { 
+    padding-bottom: 1rem;
+    align-self: center;
+    display: flex;
+    gap: 5px;
+    padding-bottom: 2rem;
+}
 .header { 
-    font-size: 36px;
+    font-size: 4rem;
     font-weight: bold;
     padding-bottom: 3rem;
 }
@@ -22,21 +29,27 @@ body {
     justify-content: space-between;
     align-self: center;
 }
+.informationwrapper { 
+    display:flex; 
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+}
 .information { 
     display:flex;
     justify-content: space-between;
-    padding: 0.5rem;
-    padding-bottom: 3rem;
-    gap: 12px;
+    gap: 0.5rem;
+    padding-bottom: 2rem;
 
 }
 img { 
-    max-width:1.2rem;
-    max-height:1.2rem;
+    width:1.5rem;
+    height:1.5rem;
 }
 .footer{ 
     margin-top: auto;
     text-align: center;
+    font-size: 1.5rem;
 }
 a { 
     padding-left: 6px;
@@ -44,11 +57,10 @@ a {
 .grid { 
     display:flex;
     justify-content: center;
-    border: 1px solid black;
 }
 .square_style {
-    height: 15px; 
-    width: 15px;
+    height: 30px; 
+    width: 30px;
     border: 0.5px solid grey;
     box-sizing: border-box;
     background-color:white;
@@ -56,4 +68,7 @@ a {
 .col_style { 
     display:flex;
     flex-direction: column;
+}
+button { 
+    font-size: 2rem;
 }
